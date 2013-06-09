@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E28EA48C-F680-41AB-9FC1-C9CFE0544554}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MessEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\OpenCV2.3\build\include\opencv;$(IncludePath);C:\OpenCV2.3\build\include\opencv2;C:\OpenCV2.3\build\include\opencv2\core;C:\OpenCV2.3\build\include\opencv2\calib3d;C:\OpenCV2.3\build\include\opencv2\contrib;C:\OpenCV2.3\build\include\opencv2\features2d;C:\OpenCV2.3\build\include\opencv2\flann;C:\OpenCV2.3\build\include\opencv2\gpu;C:\OpenCV2.3\build\include\opencv2\highgui;C:\OpenCV2.3\build\include\opencv2\imgproc;C:\OpenCV2.3\build\include\opencv2\legacy;C:\OpenCV2.3\build\include\opencv2\ml;C:\OpenCV2.3\build\include\opencv2\objdetect;C:\OpenCV2.3\build\include\opencv2\video;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\OpenCV2.3\build\include\opencv;$(IncludePath);C:\OpenCV2.3\build\include\opencv2;C:\OpenCV2.3\build\include\opencv2\core;C:\OpenCV2.3\build\include\opencv2\calib3d;C:\OpenCV2.3\build\include\opencv2\contrib;C:\OpenCV2.3\build\include\opencv2\features2d;C:\OpenCV2.3\build\include\opencv2\flann;C:\OpenCV2.3\build\include\opencv2\gpu;C:\OpenCV2.3\build\include\opencv2\highgui;C:\OpenCV2.3\build\include\opencv2\imgproc;C:\OpenCV2.3\build\include\opencv2\legacy;C:\OpenCV2.3\build\include\opencv2\ml;C:\OpenCV2.3\build\include\opencv2\objdetect;C:\OpenCV2.3\build\include\opencv2\video;</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\OpenCV2.3\build\x86\vc10\lib;</LibraryPath>
+    <SourcePath>$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\OpenCV2.3\build\include\opencv;$(IncludePath);C:\OpenCV2.3\build\include\opencv2;C:\OpenCV2.3\build\include\opencv2\core;C:\OpenCV2.3\build\include\opencv2\calib3d;C:\OpenCV2.3\build\include\opencv2\contrib;C:\OpenCV2.3\build\include\opencv2\features2d;C:\OpenCV2.3\build\include\opencv2\flann;C:\OpenCV2.3\build\include\opencv2\gpu;C:\OpenCV2.3\build\include\opencv2\highgui;C:\OpenCV2.3\build\include\opencv2\imgproc;C:\OpenCV2.3\build\include\opencv2\legacy;C:\OpenCV2.3\build\include\opencv2\ml;C:\OpenCV2.3\build\include\opencv2\objdetect;C:\OpenCV2.3\build\include\opencv2\video;</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\OpenCV2.3\build\x86\vc10\lib;</LibraryPath>
+    <SourcePath>$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MESSENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MESSENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <SetChecksum>false</SetChecksum>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+    </Link>
+    <ProjectReference />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Barcode.h" />
+    <ClInclude Include="CartoonEffect.h" />
+    <ClInclude Include="CartoonFilter.h" />
+    <ClInclude Include="CrossProcess.h" />
+    <ClInclude Include="CyborgSketch.h" />
+    <ClInclude Include="CynoType.h" />
+    <ClInclude Include="DoGFilter.h" />
+    <ClInclude Include="FisheyeLens.h" />
+    <ClInclude Include="GlobalHelper.h" />
+    <ClInclude Include="GoldEngross.h" />
+    <ClInclude Include="GreyScale.h" />
+    <ClInclude Include="HDR.h" />
+    <ClInclude Include="HolgaArt.h" />
+    <ClInclude Include="HoneyMoon.h" />
+    <ClInclude Include="Inkify.h" />
+    <ClInclude Include="Jigsaw.h" />
+    <ClInclude Include="MessEngine.h" />
+    <ClInclude Include="MotherNature.h" />
+    <ClInclude Include="MotionBlur.h" />
+    <ClInclude Include="NightVision.h" />
+    <ClInclude Include="OilPaint.h" />
+    <ClInclude Include="OldPhoto.h" />
+    <ClInclude Include="Painterly.h" />
+    <ClInclude Include="PainterlySketch.h" />
+    <ClInclude Include="Patronize.h" />
+    <ClInclude Include="PerfectSketch.h" />
+    <ClInclude Include="Reflection.h" />
+    <ClInclude Include="RotateInvert.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StencilArt.h" />
+    <ClInclude Include="SunBurst.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThermalDetector.h" />
+    <ClInclude Include="TieNDye.h" />
+    <ClInclude Include="Vintage.h" />
+    <ClInclude Include="WaterColor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Barcode.cpp" />
+    <ClCompile Include="CartoonEffect.cpp" />
+    <ClCompile Include="CartoonFilter.cpp" />
+    <ClCompile Include="CrossProcess.cpp" />
+    <ClCompile Include="CyborgSketch.cpp" />
+    <ClCompile Include="CynoType.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DoGFilter.cpp" />
+    <ClCompile Include="FisheyeLens.cpp" />
+    <ClCompile Include="GlobalHelper.cpp" />
+    <ClCompile Include="GoldEngross.cpp" />
+    <ClCompile Include="GreyScale.cpp" />
+    <ClCompile Include="HDR.cpp" />
+    <ClCompile Include="HolgaArt.cpp" />
+    <ClCompile Include="HoneyMoon.cpp" />
+    <ClCompile Include="Inkify.cpp" />
+    <ClCompile Include="Jigsaw.cpp" />
+    <ClCompile Include="MessEngine.cpp" />
+    <ClCompile Include="MotherNature.cpp" />
+    <ClCompile Include="MotionBlur.cpp" />
+    <ClCompile Include="NightVision.cpp" />
+    <ClCompile Include="OilPaint.cpp" />
+    <ClCompile Include="OldPhoto.cpp" />
+    <ClCompile Include="Painterly.cpp" />
+    <ClCompile Include="PainterlySketch.cpp" />
+    <ClCompile Include="Patronize.cpp" />
+    <ClCompile Include="PerfectSketch.cpp" />
+    <ClCompile Include="Reflection.cpp" />
+    <ClCompile Include="RotateInvert.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StencilArt.cpp" />
+    <ClCompile Include="Sunburst.cpp" />
+    <ClCompile Include="ThermalDetector.cpp" />
+    <ClCompile Include="TieNDye.cpp" />
+    <ClCompile Include="Vintage.cpp" />
+    <ClCompile Include="WaterColor.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

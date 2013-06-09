@@ -1,0 +1,101 @@
+﻿Build started 12/22/2012 9:29:37 PM.
+Project "C:\Source Code\MessMyPhoto\MessEngine\MessEngine.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Release\MessEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  All outputs are up-to-date.
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MESSENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\MessEngine.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GlobalHelper.cpp
+  GlobalHelper.cpp
+c:\source code\messmyphoto\messengine\globalhelper.cpp(19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(20): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(180): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+c:\source code\messmyphoto\messengine\globalhelper.cpp(229): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(231): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(233): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(271): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(352): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(353): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(374): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(375): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+c:\source code\messmyphoto\messengine\globalhelper.cpp(611): warning C4101: 's' : unreferenced local variable
+c:\source code\messmyphoto\messengine\globalhelper.cpp(610): warning C4101: 'k' : unreferenced local variable
+c:\source code\messmyphoto\messengine\globalhelper.cpp(640): warning C4101: 's' : unreferenced local variable
+c:\source code\messmyphoto\messengine\globalhelper.cpp(639): warning C4101: 'k' : unreferenced local variable
+c:\source code\messmyphoto\messengine\globalhelper.cpp(1025): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\source code\messmyphoto\messengine\globalhelper.cpp(1026): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\source code\messmyphoto\messengine\globalhelper.cpp(1030): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\source code\messmyphoto\messengine\globalhelper.cpp(1031): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\source code\messmyphoto\messengine\globalhelper.cpp(1021): warning C4101: 'iTemp' : unreferenced local variable
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MESSENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+  dllmain.cpp
+c:\opencv2.3\build\include\opencv2\flann\logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+ManifestResourceCompile:
+  All outputs are up-to-date.
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Source Code\MessMyPhoto\Release\MessEngine.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MessEngine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Source Code\MessMyPhoto\Release\MessEngine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Source Code\MessMyPhoto\Release\MessEngine.lib" /MACHINE:X86 /DLL Release\MessEngine.dll.embed.manifest.res
+  Release\Barcode.obj
+  Release\CartoonEffect.obj
+  Release\CartoonFilter.obj
+  Release\CrossProcess.obj
+  Release\CyborgSketch.obj
+  Release\CynoType.obj
+  Release\dllmain.obj
+  Release\DoGFilter.obj
+  Release\FisheyeLens.obj
+  Release\GlobalHelper.obj
+  Release\GoldEngross.obj
+  Release\GreyScale.obj
+  Release\HDR.obj
+  Release\HolgaArt.obj
+  Release\HoneyMoon.obj
+  Release\Inkify.obj
+  Release\Jigsaw.obj
+  Release\MessEngine.obj
+  Release\MotherNature.obj
+  Release\MotionBlur.obj
+  Release\NightVision.obj
+  Release\OilPaint.obj
+  Release\OldPhoto.obj
+  Release\Painterly.obj
+  Release\PainterlySketch.obj
+  Release\Patronize.obj
+  Release\PerfectSketch.obj
+  Release\Reflection.obj
+  Release\RotateInvert.obj
+  Release\stdafx.obj
+  Release\StencilArt.obj
+  Release\Sunburst.obj
+  Release\ThermalDetector.obj
+  Release\TieNDye.obj
+  Release\Vintage.obj
+  Release\WaterColor.obj
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:REF' specification
+Barcode.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     Creating library C:\Source Code\MessMyPhoto\Release\MessEngine.lib and object C:\Source Code\MessMyPhoto\Release\MessEngine.exp
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\MessEngine.dll.embed.manifest" /manifest Release\MessEngine.dll.intermediate.manifest
+  All outputs are up-to-date.
+LinkEmbedManifest:
+  All outputs are up-to-date.
+  MessEngine.vcxproj -> C:\Source Code\MessMyPhoto\Release\MessEngine.dll
+FinalizeBuildStatus:
+  Deleting file "Release\MessEngine.unsuccessfulbuild".
+  Touching "Release\MessEngine.lastbuildstate".
+Done Building Project "C:\Source Code\MessMyPhoto\MessEngine\MessEngine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.59
